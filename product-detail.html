@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - MIVA FASHION STORE</title>
+    <link rel="stylesheet" href="/Miva Fashion House/style/style.css">
+</head>
+<body>
+    <!-- 
+      1. ANNOUNCEMENT BAR (<marquee>)
+    -->
+    <marquee class="marquee" behavior="scrolling" scrollamount="10" direction="left">★ UPCOMING: Examination - April 07, 2026 ★ Information Technology Group Project - April 1, 2026 ★ VIP Trunk Show - March 22, 2026 ★ Exclusive Member Preview - March 28, 2026 ★</marquee>
+          
+
+    <!-- 
+      2. NAVIGATION BAR (<nav>)
+    -->
+    <nav class="navbar">
+        <img class="loogo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt="">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html" class="active">Collections</a></li>
+            <li><a href="trustees.html">Board</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 
+      3. PAGE HEADER
+    -->
+    <header class="page-header" style="padding: 40px 20px;">
+        <h1>Product Details</h1>
+        <p>Premium quality, unmatched elegance.</p>
+    </header>
+
+    <!-- 
+      4. PRODUCT DETAIL SECTION (<section>)
+      This uses CSS Flexbox to put the image on the left and the product details on the right.
+    -->
+    <section class="product-detail-container">
+        
+        <!-- Left Side: Product Image -->
+        <div class="product-detail-image color-1">
+            <img class="Velvet" src="/style/Velvet.jpg" alt="Midnight Velvet Gown">
+        </div>
+
+        <!-- Right Side: Product Information & Cart -->
+        <div class="product-detail-info">
+            <!-- Breadcrumbs help the user know where they are -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> > <a href="collections.html">Women's</a> > <span>Dresses</span>
+            </div>
+            
+            <h2>Midnight Velvet Gown</h2>
+            <p class="detail-price">$2,400</p>
+            
+            <p class="detail-description">
+                Experience unparalleled elegance with our signature Midnight Velvet Gown. 
+                Crafted from premium Italian velvet, this dress features a modern silhouette 
+                that drapes flawlessly to the floor. Perfect for galas, red carpets, and 
+                exclusive evening events.
+            </p>
+
+            <!-- Form elements for purchasing -->
+            <div class="purchase-options">
+                <div class="form-group">
+                    <label for="size">Select Size:</label>
+                    <select id="size" name="size">
+                        <option value="">Choose a size...</option>
+                        <option value="xs">XS (Extra Small)</option>
+                        <option value="s">S (Small)</option>
+                        <option value="m">M (Medium)</option>
+                        <option value="l">L (Large)</option>
+                        <option value="xl">XL (Extra Large)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" style="width: 80px;">
+                </div>
+            </div>
+
+            <!-- Call to action button -->
+            <button class="btn add-to-cart-btn" onclick="alert('Item added to your shopping bag!')">
+                Add To Cart
+            </button>
+            
+            <!-- Trust Badges / Extra Info -->
+            <div class="trust-features">
+                <p>✓ Free premium shipping on all orders</p>
+                <p>✓ 14-day hassle-free returns</p>
+                <p>✓ Secure, encrypted checkout</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+      5. FOOTER (<footer>)
+      The new 4-column eCommerce layout.
+    -->
+    <footer>
+        <div class="footer-content">
+            <!-- Column 1: Brand -->
+            <div class="footer-section brand-col">
+                <h4 class="footer-brand"><img class="footer-logo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt=""> <span class="brand-text">MIVA Fashion</span></h4>
+                <p>Curating luxury and modern elegance since 2026. Redefining your everyday style.</p>
+                <div class="social-links">
+                    <span>FB</span>
+                    <span>IG</span>
+                    <span>X</span>
+                </div>
+            </div>
+            
+            <!-- Column 2: Shop Links -->
+            <div class="footer-section links-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="collections.html">Women's Collection</a></li>
+                    <li><a href="collections.html">Men's Collection</a></li>
+                    <li><a href="collections.html">Accessories</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Customer Care -->
+            <div class="footer-section links-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter -->
+            <div class="footer-section newsletter-col">
+                <h4>Stay In Touch</h4>
+                <p>Subscribe for updates and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 MIVA Fashion House. All Rights Reserved. | Information Technology 200 level IFT 203 Project</p>
+            <p style="margin-top: 10px;"><a href="dom.html" style="color: #d4af37; text-decoration: none;">View DOM Structure</a></p>
+        </div>
+    </footer>
+
+    <script src="/Functionality/dark.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Structure - MIVA FASHION STORE</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- Marquee -->
+    <marquee class="marquee"> <p>★ UPCOMING: Examination - April 07, 2026 ★ Information Technology Group Project - April 1, 2026 ★ VIP Trunk Show - March 22, 2026 ★ Exclusive Member Preview - March 28, 2026 ★</p></marquee>
+               
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <img class="loogo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt="">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="trustees.html">Board</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Website DOM Structure</h1>
+        <p>A visual representation of our Document Object Model tree.</p>
+    </header>
+
+    <!-- DOM Structure Visualization -->
+    <section class="dom-section">
+        <div class="dom-container">
+            <!-- Visual Tree -->
+            <div class="dom-tree">
+                <div class="dom-node root">
+                    <span class="node-tag">&lt;html&gt;</span>
+                    <div class="node-children">
+                        <div class="dom-node">
+                            <span class="node-tag">&lt;head&gt;</span>
+                            <div class="node-children">
+                                <div class="dom-node leaf">&lt;meta charset="UTF-8"&gt;</div>
+                                <div class="dom-node leaf">&lt;title&gt;LUMIERE&lt;/title&gt;</div>
+                                <div class="dom-node leaf">&lt;link rel="stylesheet" href="styles.css"&gt;</div>
+                            </div>
+                        </div>
+                        <div class="dom-node">
+                            <span class="node-tag">&lt;body&gt;</span>
+                            <div class="node-children">
+                                <div class="dom-node leaf">&lt;div class="marquee"&gt;...&lt;/div&gt;</div>
+                                <div class="dom-node leaf">&lt;nav class="navbar"&gt;...&lt;/nav&gt;</div>
+                                <div class="dom-node leaf">&lt;header class="hero"&gt;...&lt;/header&gt;</div>
+                                <div class="dom-node leaf">&lt;section class="featured"&gt;...&lt;/section&gt;</div>
+                                <div class="dom-node leaf">&lt;footer&gt;...&lt;/footer&gt;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Text Explanation -->
+            <div class="dom-explanation">
+                <h3>Document Object Model (DOM) Explanation</h3>
+                <ul>
+                    <li><strong>&lt;html&gt;</strong> - Root element containing entire document</li>
+                    <li><strong>&lt;head&gt;</strong> - Metadata, title, and CSS links</li>
+                    <li><strong>&lt;body&gt;</strong> - Visible content of the webpage</li>
+                    <li><strong>Marquee</strong> - Scrolling announcement bar</li>
+                    <li><strong>Navigation</strong> - Menu linking all pages</li>
+                    <li><strong>Header/Hero</strong> - Main banners across the site</li>
+                    <li><strong>Sections</strong> - Content areas varying per page</li>
+                    <li><strong>Footer</strong> - Copyright, contact info, and structural links</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            
+            <!-- Column 1: Brand -->
+            <div class="footer-section brand-col">
+                <h4 class="footer-brand"><img class="footer-logo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt=""> <span class="brand-text">MIVA Fashion</span></h4>
+                <p>Curating luxury and modern elegance since 2026. Redefining your everyday style.</p>
+                <div class="social-links">
+                    <div> <img class="icon-1" src="./style/New FB.png" alt=""></div>
+                    <div><img class="icon-2" src="./style/IG.png" alt=""></div>
+                    <div> <img class="icon-3" src="./style/Twitter.png" alt=""></div>
+                </div>
+            </div>
+            
+            <!-- Column 2: Shop Links -->
+            <div class="footer-section links-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="collections.html">Women's Collection</a></li>
+                    <li><a href="collections.html">Men's Collection</a></li>
+                    <li><a href="collections.html">Accessories</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Customer Care -->
+            <div class="footer-section links-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter -->
+            <div class="footer-section newsletter-col">
+                <h4>Stay In Touch</h4>
+                <p>Subscribe for updates and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 MIVA Fashion House. All Rights Reserved. | Information Technology 200 level IFT 203 Project</p>
+            <p style="margin-top: 10px;"><a href="dom.html" style="color: #d4af37; text-decoration: none;">View DOM Structure</a></p>
+        </div>
+    </footer>
+
+    <script src="./Functionality/dark.js"></script>
+</body>
+</html>

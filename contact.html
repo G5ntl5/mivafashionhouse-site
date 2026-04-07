@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - LUMIERE Fashion House</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- Marquee -->
+    <marquee class="marquee"> <p>★ UPCOMING: Examination - April 07, 2026 ★ Information Technology Group Project - April 1, 2026 ★ VIP Trunk Show - March 22, 2026 ★ Exclusive Member Preview - March 28, 2026 ★</p></marquee>
+          
+
+    <!-- Navigation -->
+    <nav class="navbar">
+         <img class="loogo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt="">
+               <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="trustees.html">Board</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you</p>
+    </header>
+
+    <!-- Contact Forms Section -->
+    <section class="contact-section">
+        <div class="forms-container">
+            
+            <!-- Inquiry Form -->
+            <div class="form-box">
+                <h2>Send an Inquiry</h2>
+                <p class="form-subtitle">Have a question? Send us a message.</p>
+                
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="inq-name">Full Name *</label>
+                        <input type="text" id="inq-name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inq-email">Email Address *</label>
+                        <input type="email" id="inq-email" name="email" required placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inq-phone">Phone Number</label>
+                        <input type="tel" id="inq-phone" name="phone" placeholder="+33 1 23 45 67 89">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inq-subject">Subject *</label>
+                        <select id="inq-subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="product">Product Information</option>
+                            <option value="order">Order Status</option>
+                            <option value="returns">Returns & Exchanges</option>
+                            <option value="wholesale">Wholesale Inquiry</option>
+                            <option value="press">Press & Media</option>
+                            <option value="careers">Careers</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inq-message">Message *</label>
+                        <textarea id="inq-message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="inq-newsletter" name="newsletter">
+                        <label for="inq-newsletter">Subscribe to our newsletter for updates</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Appointment Form -->
+            <div class="form-box">
+                <h2>Book an Appointment</h2>
+                <p class="form-subtitle">Schedule a private consultation or fitting.</p>
+                
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="app-name">Full Name *</label>
+                        <input type="text" id="app-name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="app-email">Email Address *</label>
+                        <input type="email" id="app-email" name="email" required placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="app-phone">Phone Number *</label>
+                        <input type="tel" id="app-phone" name="phone" required placeholder="+33 1 23 45 67 89">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="app-date">Preferred Date *</label>
+                            <input type="date" id="app-date" name="date" required>
+                        </div>
+                        
+                        <div class="form-group half">
+                            <label for="app-time">Preferred Time *</label>
+                            <select id="app-time" name="time" required>
+                                <option value="">Select time</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="app-type">Appointment Type *</label>
+                        <select id="app-type" name="type" required>
+                            <option value="">Select type</option>
+                            <option value="fitting">Private Fitting</option>
+                            <option value="consultation">Style Consultation</option>
+                            <option value="viewing">Collection Viewing</option>
+                            <option value="custom">Custom Design Consultation</option>
+                            <option value="bridal">Bridal Consultation</option>
+                            <option value="corporate">Corporate Styling</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="app-notes">Special Requests</label>
+                        <textarea id="app-notes" name="notes" rows="3" placeholder="Any specific requirements or items you're interested in?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Book Appointment</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info-box">
+            <h2>Visit Our Boutique</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h4>Address</h4>
+                    <p>376 Herbert Macaulay Way<br>YAba, Lagos</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h4>Phone</h4>
+                    <p>+234 234 4567 890<br>+234 234 4567 890</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">✉️</div>
+                    <h4>Email</h4>
+                    <p>info@mivafashionhouse.com<br>appointments@lumiere.com</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">🕐</div>
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Saturday: 10AM - 8PM<br>Sunday: 12PM - 6PM</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        
+        <div class="footer-content">
+            
+            <!-- Column 1: Brand -->
+            <div class="footer-section brand-col">
+                <h4 class="footer-brand"><img class="footer-logo" src="https://img.ws.mms.shopee.co.id/id-11134233-7r98r-lokwcsqmvzc9b0" alt=""> <span class="brand-text">MIVA Fashion</span></h4>
+                <p>Curating luxury and modern elegance since 2026. Redefining your everyday style.</p>
+                <div class="social-links">
+                    <div> <img class="icon-1" src="./style/New FB.png" alt=""></div>
+                    <div><img class="icon-2" src="./style/IG.png" alt=""></div>
+                    <div> <img class="icon-3" src="./style/Twitter.png" alt=""></div>
+                </div>
+            </div>
+            
+            <!-- Column 2: Shop Links -->
+            <div class="footer-section links-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="collections.html">Women's Collection</a></li>
+                    <li><a href="collections.html">Men's Collection</a></li>
+                    <li><a href="collections.html">Accessories</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Customer Care -->
+            <div class="footer-section links-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter -->
+            <div class="footer-section newsletter-col">
+                <h4>Stay In Touch</h4>
+                <p>Subscribe for updates and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MIVA Fashion House. All Rights Reserved. | Information Technology 200 level IFT 203 Project</p>
+            <p style="margin-top: 10px;"><a href="dom.html" style="color: #d4af37; text-decoration: none;">View DOM Structure</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

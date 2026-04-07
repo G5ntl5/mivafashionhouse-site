@@ -1,0 +1,35 @@
+MIVA Fashion House DOM Tree
+
+Document
+└── html
+    ├── head
+    │   ├── meta (charset)
+    │   ├── meta (viewport)
+    │   ├── title
+    │   └── link (stylesheet)
+    └── body
+        ├── marquee
+        ├── nav (navbar)
+        │   ├── img (logo)
+        │   └── ul (nav-links)
+        │       ├── li > a (Home)
+        │       ├── li > a (Collections)
+        │       ├── li > a (Board)
+        │       ├── li > a (Events)
+        │       └── li > a (Contact)
+        ├── header (hero or page-header)
+        │   ├── h1
+        │   └── p
+        ├── section (main content)
+        │   └── div (container)
+        │       ├── h2
+        │       └── div (grid)
+        │           └── div (cards/forms)
+        ├── script (dark.js)
+        └── footer
+            ├── div (footer-content)
+            │   ├── div > h4, p
+            │   ├── div > h4, p
+            │   └── div > h4, p
+            └── div (footer-bottom)
+                └── p
